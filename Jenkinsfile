@@ -67,7 +67,7 @@ pipeline {
                     waitForQualityGate abortPipeline: true
                 }
             }
-        }
+        } //ok
          stage("UploadArtifact"){
             steps{
                 nexusArtifactUploader(
